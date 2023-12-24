@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pig-Game</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- font-awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <section class="player-0 player-active">
+        <h1>PLAYER 1</h1>
+        <p class="playerScore-0 total-score">45</p>
+        <div class="present-score">
+          <h3>Current</h3>
+          <span class="currentScore-0">0</span>
+        </div>
+      </section>
+
+      <section class="player-1">
+        <h1>PLAYER 2</h1>
+        <p class="playerScore-1 total-score">48</p>
+        <div class="present-score">
+          <h3>Current</h3>
+          <span class="currentScore-1">0</span>
+        </div>
+      </section>
+
+      <button class="new-game btn">
+        <i class="fa-solid fa-rotate-right"></i>
+        New Game
+      </button>
+      <img src="img/dice-1.png" alt="dice" class="hidden" />
+      <button class="roll-dice btn">
+        Roll Dice<i class="fa-solid fa-dice"></i>
+      </button>
+      <button class="hold btn">Hold<i class="fa-solid fa-plus"></i></button>
+    </div>
+  </body>
+  <script src="JS/script.js"></script>
+</html>
